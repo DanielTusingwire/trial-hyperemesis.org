@@ -8,6 +8,14 @@ body {
     margin-left:250px;
     width: 1000px;
   }
+  @keyframes change-color {
+    from{
+      background-color: #68478d;
+    }
+    to{
+      background-color: #9e013d;
+    }
+  }
   .banner{
     background-color:#68478D ;
    width: 100%;
@@ -15,7 +23,9 @@ body {
    /* padding: 10px; */
    /* padding-right: 01%; */
    padding-left:0px;
-    
+    animation-name: change-color;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
   }
   
   .head{
@@ -145,4 +155,44 @@ padding-left: 20px;
    margin-top: 30px;
    padding-bottom: 0px;
 }
+.banner-gray{
+  background-color: gainsboro;
+  height: 200px;
+  margin-top: 1000px;
 
+}
+
+#container-two{
+  margin-left:250px;
+  width: 1000px;
+  margin-top: -170px;
+
+}
+#container-two .content-left{
+  float: left;
+  width: 60%;
+  line-height: 1.5rem;
+  font-size: 15px;
+}
+
+#container-two .content-right{
+  float: right;
+  margin-top: 50px;
+  
+}
+.download-button{
+  height: 45px;
+  width: 350px;
+  border-style: none;
+  border-radius: 5px;
+  background-color: #b01d6e;
+  color: white;
+  font-size: 15px;
+
+}
+.image-cards img{
+  width: 400px;
+  height: 200px;
+margin-bottom: -400px;
+margin-left: -600px;
+}
